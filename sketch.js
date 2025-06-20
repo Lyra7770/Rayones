@@ -13,8 +13,8 @@ const paleta = [
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(...paleta[5]);
-  textFont('Space Grotesk');
-  textSize(64);
+  textFont('Cormorant Garamond');
+  textSize(72);
   textAlign(CENTER, TOP);
   smooth();
 }
@@ -22,8 +22,8 @@ function setup() {
 function draw() {
   background(...paleta[5]);
 
-  // Título moderno y suave
-  fill(30, 30, 30, 140);
+  // Título con estilo delicado y moderno
+  fill(30, 30, 30, 120); // Gris suave transparente
   noStroke();
   text("Dibuja un recuerdo", width / 2, height * 0.04);
 
