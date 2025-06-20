@@ -13,7 +13,7 @@ const paleta = [
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(...paleta[5]);
-  textFont('Satoshi');
+  textFont('Space Grotesk');
   textSize(64);
   textAlign(CENTER, TOP);
   smooth();
@@ -22,7 +22,7 @@ function setup() {
 function draw() {
   background(...paleta[5]);
 
-  // Título limpio, moderno y elegante
+  // Título moderno y suave
   fill(30, 30, 30, 140);
   noStroke();
   text("Dibuja un recuerdo", width / 2, height * 0.04);
@@ -35,7 +35,7 @@ function draw() {
     trazoActual.mostrar();
   }
 
-  // Cursor suave personalizado
+  // Cursor personalizado
   noCursor();
   fill(30, 30, 30, 60);
   ellipse(mouseX, mouseY, 20, 20);
